@@ -1,0 +1,23 @@
+{
+  "name": "noodles-problem",
+  "version": "1.0.0",
+  "description": "João é um fanático por miojos; ele os adora, e, como era de se esperar, ele levou vários pacotes quando foi acampar com seus colegas. Como João só gosta de miojos feitos com o tempo exato, ele se deseperou ao perceber que havia esquecido seu relógio em casa.",
+  "main": "bin/miojo",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "start": "node bin/miojo",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/victordias/noodles-problem.git"
+  },
+  "author": "Victor Oliveira <victor.dias.oliveira@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/victordias/noodles-problem/issues"
+  },
+  "homepage": "https://github.com/victordias/noodles-problem#readme"
+}
