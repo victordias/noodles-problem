@@ -1,0 +1,14 @@
+#!/bin/env node
+
+const Noodles = require('../lib/noodles'),
+  Args = require('../lib/args')
+
+try {
+  const params = Args(process.argv.slice(2))
+  Noodles.cooking(...params)
+  process.exit(0)
+}
+catch (err) {
+  console.log(err.message)
+  process.exit(1)
+}
